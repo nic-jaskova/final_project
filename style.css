@@ -14,7 +14,7 @@ body {
 
 .body {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
   clear: both;
 }
 
@@ -33,20 +33,22 @@ a:hover, a:active {
 h1 {
   color: #fff;
   font-family: 'Yellowtail', serif;
-  font-size: 52px;
+  font-size: 46px;
   font-weight: 900;
   line-height: 46px;
   margin: 0 0 60px 0;
   text-align: center;
   text-shadow: 0px 2px 4px rgba(34,62,66,.75);
   width: 50%;
+  vertical-align: middle;
+  margin-top: 2%;
+  margin-left: 2%;
 }
 
 header nav {
   background-color: #204787;
   height: 60px;
-  /*position: fixed;
-  width: 75%;*/
+  /*position: fixed;*/
 }
 
 /*header nav, header img {
@@ -80,8 +82,15 @@ header nav a:hover, header nav a:active {
   text-shadow: none;
 }
 
-.body {
+.mainContent {
   background-color: #204787;
+  opacity: 0.73;
+  border: 2px solid transparent;
+}
+
+/*desktop*/
+@media only screen and (min-width: 1140px) {
+  .body {width: 70%};
 }
 
 /*div.button {
