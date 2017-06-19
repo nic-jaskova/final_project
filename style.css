@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 
 body {
   background: url("./images/mainpage.jpg")no-repeat center center;
@@ -48,12 +52,11 @@ h1 {
 header nav {
   background-color: #204787;
   height: 60px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
   /*position: fixed;*/
 }
-
-/*header nav, header img {
-  position: fixed;
-}*/
 
 header nav ul {
   list-style: none;
@@ -74,18 +77,160 @@ header nav a:link, header nav a:visited {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  height: 26px;
+  height: 30px;
 }
 
 header nav a:hover, header nav a:active {
-  background-color: #e2574c;
+  background-color: black;
   text-shadow: none;
+}
+
+header nav ul li a {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .mainContent {
   background-color: #204787;
   opacity: 0.73;
   border: 2px solid transparent;
+  overflow: scroll;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.content1 {
+  width: 90%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.content2 {
+  width: 90%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.content3 {
+  width: 90%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.content4 {
+  width: 90%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.aboutMe {
+  background: url("./images/aboutme.jpg") rgba(0,0,0,0.1) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.aboutMe h2 {
+  font-size: 45px;
+  color: #204787;
+}
+
+.aboutMe-description {
+  background-color: #204787;
+  opacity: 0.73;
+  border: 2px solid transparent;
+  overflow: scroll;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.aboutMe-description p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  width: 90%;
+}
+
+.signup {
+  background-color: black;
+  opacity: 0.73;
+}
+
+.signup p {
+  color: white;
+  width: 90%;
+}
+
+.mainFooter {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4%;
+}
+
+.mainFooter section {
+  margin-top: 12%;
+}
+
+.mainFooter section p {
+  color: white;
+  /*font-family: 'karla', sans-serif;*/
+  line-height: 1.5;
+  text-align: center;
+  font-size: 14px;
+}
+
+.mainFooter nav ul {
+  list-style: none;
+  margin-top: 8%;
+  text-align: center;
+}
+
+.mainFooter nav ul li {
+  display:inline;
+  padding-right: 4px;
+}
+
+.mainFooter nav a:link, .mainFooter nav a:visited {
+  color: white;
+  padding: 15px 20px;
+  margin: 0 auto;
+  display: none;
+}
+
+.mainFooter nav a:hover, .mainFooter nav a:active {
+  background-color: #e2574c;
+  text-shadow: none;
+}
+
+.mainFooter i {
+  padding-right: 16px;
+  color: white;
+  font-size: 30px;
 }
 
 /*desktop*/
