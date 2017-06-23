@@ -112,7 +112,31 @@ header nav ul li a {
 
 #pic1 {
   max-width: 100%;
-  opacity: 1;
+  opacity: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#pic2 {
+  max-width: 100%;
+  opacity: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#pic3 {
+  max-width: 100%;
+  opacity: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#pic4 {
+  max-width: 100%;
+  opacity: none;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -176,7 +200,7 @@ header nav ul li a {
 
 .aboutMe-description p {
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   text-align: justify;
   width: 90%;
@@ -185,6 +209,10 @@ header nav ul li a {
 .signup {
   background-color: black;
   opacity: 0.73;
+  height: 50%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .signup p {
@@ -192,13 +220,27 @@ header nav ul li a {
   width: 90%;
 }
 
+.signup .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*a.btn:hover {
+  background:#ffa800;
+  color:#000;
+}*/
+
 .mainFooter {
   height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4%;
+  margin-bottom: 12%;
 }
 
 .mainFooter section {
@@ -237,7 +279,7 @@ header nav ul li a {
 }
 
 .mainFooter i {
-  padding-right: 16px;
+  padding-right: 18px;
   color: white;
   font-size: 30px;
 }
