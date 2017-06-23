@@ -4,13 +4,16 @@ html {
 
 
 body {
-  background: url("./images/mainpage.jpg")no-repeat center center;
+  background: url("./images/mainpage.jpg") no-repeat center center fixed;
   color:  white;
   font-size: 90%;
   font-family: 'Yellowtail', 'Ariel';
   line-height: 1.5;
   text-align: left;
-  background-attachment: fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-size: cover;
   height: 100%;
   weight: 100%;
