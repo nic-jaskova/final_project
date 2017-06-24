@@ -7,7 +7,7 @@ body {
   background: url("./images/mainpage.jpg") no-repeat center center fixed;
   color:  white;
   font-size: 90%;
-  font-family: 'Yellowtail', 'Ariel';
+  font-family: Tahoma, Geneva, sans-serif;
   line-height: 1.5;
   text-align: left;
   -moz-background-size: cover;
@@ -25,6 +25,14 @@ body {
   clear: both;
 }
 
+@font-face {
+    font-family: 'kaushan';
+    src: url("fontkit/kaushanscript-regular-webfont.woff") format('woff'),
+         url("fontkit/kaushanscript-regular-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 a {
   text-decoration: none;
 }
@@ -39,17 +47,18 @@ a:hover, a:active {
 
 h1 {
   color: #fff;
-  font-family: 'Yellowtail', serif;
+  font-family: 'kaushan', serif;
   font-size: 46px;
   font-weight: 900;
-  line-height: 46px;
-  margin: 0 0 60px 0;
+  line-height: 30px;
+  /*margin: 0 0 60px 0;*/
+  padding: 19px;
   text-align: center;
   text-shadow: 0px 2px 4px rgba(34,62,66,.75);
   width: 50%;
-  vertical-align: middle;
-  margin-top: 2%;
-  margin-left: 2%;
+  margin-top: 6%;
+  margin-left: 4%;
+  margin-bottom: 4%;
 }
 
 header nav {
@@ -75,7 +84,7 @@ header nav ul li {
 header nav a:link, header nav a:visited {
   color: white;
   display: inline-block;
-  padding: 15px 20px;
+  padding: 15px 17px;
   margin: 0 auto;
   text-transform: uppercase;
   text-decoration: none;
@@ -186,9 +195,10 @@ header nav ul li a {
   -webkit-border-radius: 5px;
 }
 
-.aboutMe h2 {
+h2 {
+  font-family: 'kaushan', serif;
   font-size: 45px;
-  color: #204787;
+  color: white;
 }
 
 .aboutMe-description {
@@ -209,7 +219,7 @@ header nav ul li a {
   width: 90%;
 }
 
-button {
+#contactme {
   background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
 	border-radius: 50px;
 	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
@@ -223,12 +233,12 @@ button {
   -webkit-transition: box-shadow 1s ease;
 	transition: box-shadow 1s ease;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 25%;
   display: inline-block;
 }
 
- button:hover {
+ #contactme:hover {
   background-color: #b64036;
   box-shadow: 0px 4px 4px rgba(34,62,66,.5);
 	-webkit-transition: box-shadow 1s ease;
@@ -289,6 +299,7 @@ button {
 @media only screen and (min-width: 1140px) {
   .body {width: 70%};
 
+
   button {
     margin: 50% 50%;
   }
@@ -303,25 +314,3 @@ button {
 	min-height: 800px;
 	justify-content: center;
 	width: 800px;*/
-
-}
-
-
-/*a.btn {
-	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
-	border-radius: 2px;
-	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
-  color: #fff;
-  font-size: 18px;
-  letter-spacing: 1px;
-  padding: 16px 32px;
-  text-decoration: none;
-  text-transform: uppercase;
-  -webkit-transition: box-shadow 1s ease;
-	transition: box-shadow 1s ease;
-}
-
-a.btn:hover {
-	box-shadow: 0px 4px 4px rgba(34,62,66,.5);
-	-webkit-transition: box-shadow 1s ease;
-	transition: box-shadow 1s ease;*/
