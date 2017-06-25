@@ -7,13 +7,12 @@ body {
   background: url("./images/mainpage.jpg") no-repeat center center fixed;
   color:  white;
   font-size: 90%;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Tahoma, sans-serif;
   line-height: 1.5;
   text-align: left;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   background-size: cover;
   height: 100%;
   weight: 100%;
@@ -51,7 +50,6 @@ h1 {
   font-size: 46px;
   font-weight: 900;
   line-height: 30px;
-  /*margin: 0 0 60px 0;*/
   padding: 19px;
   text-align: center;
   text-shadow: 0px 2px 4px rgba(34,62,66,.75);
@@ -253,7 +251,7 @@ h2 {
   color: white;
   font-size: 15px;
   text-align: center;
-  line-height: 2;
+  line-height: 3;
   margin-left: 4%;
   width: 90%;
 }
@@ -354,13 +352,12 @@ font-size: 14px;
 
 .mainFooter nav a:link, .mainFooter nav a:visited {
   color: white;
-  padding: 15px 20px;
+  padding: 5px 10px;
   margin: 0 auto;
-  display: none;
 }
 
 .mainFooter nav a:hover, .mainFooter nav a:active {
-  background-color: #e2574c;
+  cursor: pointer;
   text-shadow: none;
 }
 
@@ -372,14 +369,54 @@ font-size: 14px;
 
 /*desktop*/
 @media only screen and (min-width: 1140px) {
-  .body {width: 70%};
+  .body {width: 70%;}
 
-  h1 {
-    font-size: 100px;
+  .mainheader h1 {
+    font-size: 70px;
+    margin-left: 20%;
   }
 
-  button {
-    margin: 50% 50%;
+  #pic1, #pic2, #pic3, #pic4 {
+    width: 85%;
+    margin-left: 7%;
+  }
+
+  div.main{
+  margin-left: 14%;
+  font-size: 16px;
+  width: 60%;
+  height: 60%;
+  }
+
+  .main h2 {
+    margin-left: 30%;
+  }
+
+  input[type=text],[type=email] {
+  width: 60%;
+  height: 34px;
+  padding-left: 5px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  box-shadow: 0 0 5px #00F5FF;
+  border: 2px solid #00F5FF;
+  color: #4f4f4f;
+  font-size: 16px;
+  }
+
+  textarea {
+    font-size: 20px;
+    margin-left: 23%;
+  }
+
+  label{
+  font-size: 16px;
+  margin-left: 10%;
+  }
+
+  #contactme {
+    margin-top: 0.5%;
+    margin-left: 42%;
   }
 }
 
