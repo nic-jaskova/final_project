@@ -142,12 +142,12 @@ header nav ul li a {
   left: 0;
   width: 100%;
   height: 100%;
-  /*display: none;*/
+  display: none;
 }
 
 .pop-inner {
   background-image: none;
-  width: 50%;
+  width: 70%;
   height: 400px;
   padding: 25px;
   margin: 15% auto;
@@ -155,16 +155,19 @@ header nav ul li a {
   border: 2px solid gray;
   background-color: black;
   opacity: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .close, .close2 {
   width: 25px;
-  height: 25px;
+  height: 30px;
   line-height: 25px;
   font-size: 25px;
   float: right;
   cursor: pointer;
-  color: black;
+  color: white;
 }
 
 #pic2 {
@@ -333,7 +336,6 @@ font-size: 14px;
 
 .mainFooter section p {
   color: white;
-  /*font-family: 'karla', sans-serif;*/
   line-height: 1.5;
   text-align: center;
   font-size: 14px;
@@ -362,7 +364,7 @@ font-size: 14px;
 }
 
 .mainFooter i {
-  padding-right: 18px;
+  padding-right: 2px;
   color: white;
   font-size: 30px;
 }
@@ -418,14 +420,8 @@ font-size: 14px;
     margin-top: 0.5%;
     margin-left: 42%;
   }
-}
 
-/*div.button {
-	align-items: center;
-	align-self: center;
-	border-radius: 100%;
-	display: flex;
-	flex-direction: column;
-	min-height: 800px;
-	justify-content: center;
-	width: 800px;*/
+  .mainFooter i {
+    padding-right: 18px;
+  }
+}
