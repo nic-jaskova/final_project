@@ -122,6 +122,12 @@ header nav ul li a {
   margin-top: 2%;
 }
 
+.content1-info, .content2-info {
+  font-size: 25px;
+  font-family: 'kaushan', serif;
+  text-align: center;
+}
+
 
 #pic1 {
   max-width: 100%;
@@ -131,8 +137,8 @@ header nav ul li a {
   -webkit-border-radius: 5px;
 }
 
-.pop-outer {
-  background-color: none;
+.pop-outer, .pop-outer2 {
+  background-image: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -142,7 +148,7 @@ header nav ul li a {
 }
 
 .pop-inner {
-  background-color: #fff;
+  background-image: none;
   width: 50%;
   height: 400px;
   padding: 25px;
@@ -151,6 +157,16 @@ header nav ul li a {
   border: 2px solid gray;
   background-color: black;
   opacity: none;
+}
+
+.close, .close2 {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 25px;
+  float: right;
+  cursor: pointer;
+  color: black;
 }
 
 #pic2 {
@@ -241,13 +257,6 @@ h2 {
   margin-left: 4%;
   width: 90%;
 }
-
-/*div.container{
-width: 60%;
-height: 80%;
-margin:0px auto;
-font-family: 'kaushan', serif;
-}*/
 
 div.main{
 padding: 10px 55px 40px;
@@ -365,6 +374,9 @@ font-size: 14px;
 @media only screen and (min-width: 1140px) {
   .body {width: 70%};
 
+  h1 {
+    font-size: 100px;
+  }
 
   button {
     margin: 50% 50%;

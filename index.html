@@ -10,6 +10,24 @@
     <!--Font Awesome via CDN -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <!-- <script>
+    $(document).ready(function() {
+      $(".open").click (function () {
+        $('.pop-outer').fadeIn('slow');
+      });
+    $(".close").click(function() {
+      $('.pop-outer').fadeOut('slow');
+      });
+    });
+    $(document).ready(function() {
+      $(".open2").click (function () {
+        $('.pop-outer2').fadeIn('slow');
+      });
+    $(".close2").click(function() {
+      $('.pop-outer2').fadeOut('slow');
+      });
+    });
+    </script> -->
     <title>Reflektorium</title>
   </head>
 
@@ -34,41 +52,47 @@
 <!-- <div class=Post1> -->
 
   <article class="content1">
-  <div class="open">
+  <!-- <div class="open"> -->
     <header>
       <a href="#"> <img id="pic1" src="./images/home.jpg" alt="Panorama of my grandparent's garden"></a>
-      <p class="content1-info">First post tag line</p>
+      <p class="content1-info">Reflecting on Change</p>
     </header>
-  </div>
+  <!-- </div> -->
 
-    <!-- <footer>
-      <p class="content1-info">First post tag line</p>
-    </footer> -->
-<div class="pop-outer">
+<!-- <div class="pop-outer">
   <div class="pop-inner">
-    <button class="close"> X </button>
-    <content>
+    <button class="close">X</button> -->
+    <!-- <content>
       <a href="#"> <img id="pic1" src="./images/home.jpg" alt="Panorama of my grandparent's garden"></a>
-      <p class="content1-info">First post tag line</p>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-    </content>
-</div>
-</div>
+      <p class="content1-info">Reflecting on Change</p>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+    </content> -->
+<!-- </div>
+</div> -->
   </article>
 
-
   <article class="content2">
+    <!-- <div class="open2"> -->
     <header>
       <a href="#"> <img id="pic2" src="./images/Post2.jpg" alt="Panorama of a road with hills behind and clear blue sky"></a>
+      <p class="content2-info">Taking the road less travelled</p>
     </header>
+  <!-- </div> -->
 
-    <footer>
-      <p class="content2-info">Second post tag line</p>
-    </footer>
-
-    <content>
+    <!-- <div class="pop-outer2">
+      <div class="pop-inner">
+        <button class="close2">X</button> -->
+    <!-- <content>
+      <a href="#"> <img id="pic2" src="./images/Post2.jpg" alt="Panorama of a road with hills behind and clear blue sky"></a>
+      <p class="content2-info">Taking the road less travelled</p>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-    </content>
+    </content> -->
+  <!-- </div>
+</div> -->
   </article>
 
   <article class="content3">
@@ -114,7 +138,7 @@
 
 
   <div class="main">
-      <form class="form" method="post" action="#">
+      <form id="submitForm" class="form" method="post" action="#">
           <h2>Contact Me</h2>
             <label>Name :</label>
               <input type="text" name="dname" id="name"> <br>
@@ -140,7 +164,7 @@
   <article>
       <nav>
         <ul class="sl">
-          <li><i class="fa fa-facebook" aria-hidden="true"></i> <a href="https://facebook.com" target="_blank">Facebook</a></li>
+          <li><i class="fa fa-facebook" aria-hidden="true"><a href="https://facebook.com" target="_blank">Facebook</a></i></li>
           <li><i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com" target="_blank">Twitter</a></li>
           <li><i class="fa fa-instagram" aria-hidden="true"></i> <a href="https://instagram.com" target="_blank">Instagram</a></li>
           <li><i class="fa fa-medium" aria-hidden="true"></i> <a href="https://medium.com" target="_blank">Medium</a></li>
