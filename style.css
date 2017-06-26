@@ -120,7 +120,7 @@ header nav ul li a {
   margin-top: 2%;
 }
 
-.content1-info, .content2-info {
+.content1-info, .content2-info, .content3-info, .content4-info {
   font-size: 25px;
   font-family: 'kaushan', serif;
   text-align: center;
@@ -135,7 +135,7 @@ header nav ul li a {
   -webkit-border-radius: 5px;
 }
 
-.pop-outer, .pop-outer2 {
+.pop-outer, .pop-outer2, .pop-outer3, .pop-outer4 {
   background-image: none;
   position: fixed;
   top: 0;
@@ -160,14 +160,16 @@ header nav ul li a {
   -webkit-border-radius: 5px;
 }
 
-.close, .close2 {
+.close, .close2, .close3, .close4 {
   width: 25px;
-  height: 30px;
+  height: 28px;
   line-height: 25px;
-  font-size: 25px;
+  font-size: 15px;
   float: right;
   cursor: pointer;
-  color: white;
+  color: black;
+  border-radius: 30%;
+
 }
 
 #pic2 {
@@ -287,6 +289,8 @@ font-size: 16px;
 
 textarea {
   font-size: 16px;
+  width: 90%;
+  margin-right: 2%;
 }
 
 label{
@@ -369,6 +373,22 @@ font-size: 14px;
   font-size: 30px;
 }
 
+/*iphone5*/
+@media only screen and (max-width: 320px){
+  .body {
+    width: 90%;
+  }
+
+  header nav ul {
+    float: none;
+  }
+
+  header nav ul li {
+    float: none;
+  }
+
+  }
+
 /*desktop*/
 @media only screen and (min-width: 1140px) {
   .body {width: 70%;}
@@ -408,7 +428,7 @@ font-size: 14px;
 
   textarea {
     font-size: 20px;
-    margin-left: 23%;
+    margin-left: 4%;
   }
 
   label{
