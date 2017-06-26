@@ -118,15 +118,6 @@ header nav ul li a {
   text-align: center;
 }
 
-
-#pic1 {
-  max-width: 100%;
-  opacity: none;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-
 .pop-outer, .pop-outer2, .pop-outer3, .pop-outer4 {
   background-image: none;
   position: fixed;
@@ -164,25 +155,15 @@ header nav ul li a {
 
 }
 
-#pic2 {
+#pic1, #pic2, #pic3, #pic4 {
   max-width: 100%;
-  opacity: none;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
 
-#pic3 {
+#pic1-1, #pic2-2, #pic3-3, #pic4-4 {
   max-width: 100%;
-  opacity: none;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-
-#pic4 {
-  max-width: 100%;
-  opacity: none;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -383,6 +364,12 @@ font-size: 14px;
     width: 85%;
     margin-left: 7%;
   }
+
+  #pic1-1, #pic2-2, #pic3-3, #pic4-4 {
+    width: 85%;
+    margin-left: 7%;
+  }
+
   .pop-inner {
     width: 74%;
     height: 400px;
@@ -432,6 +419,12 @@ font-size: 14px;
     width: 85%;
     margin-left: 7%;
   }
+
+  #pic1-1, #pic2-2, #pic3-3, #pic4-4 {
+    width: 85%;
+    margin-left: 7%;
+  }
+
   .pop-inner {
     width: 67%;
     height: 400px;
