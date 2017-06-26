@@ -8,7 +8,7 @@ body {
   color:  white;
   font-size: 90%;
   font-family: Tahoma, sans-serif;
-  line-height: 1.5;
+  line-height: 2;
   text-align: left;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -375,18 +375,9 @@ font-size: 14px;
 
 /*iphone5*/
 @media only screen and (max-width: 320px){
-  .body {
-    width: 90%;
-  }
-
-  header nav ul {
-    float: none;
-  }
-
-  header nav ul li {
-    float: none;
-  }
-
+  .body {width: 90%;}
+  header nav ul {float: none;}
+  header nav ul li {float: none;}
   }
 
 /*desktop*/
@@ -401,6 +392,15 @@ font-size: 14px;
   #pic1, #pic2, #pic3, #pic4 {
     width: 85%;
     margin-left: 7%;
+  }
+  .pop-inner {
+    width: 67%;
+    height: 400px;
+  }
+
+  .content1-info, .content2-info, .content3-info, .content4-info {
+    font-size: 40px;
+    margin-top: 2%;
   }
 
   div.main{
